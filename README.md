@@ -23,6 +23,16 @@ git reset --mixed : undo change to work directory
 git reset --hard : undo change from file
 
 git revert : add new commit override old commit & remove code
+
+git clone
+git pull
+
+Pull request : work with team use Github
+    1. git checkout -b <feature/_branch>
+    2. git push origin <branch>
+    3. create pull request on Github
+    4. review code
+    5. merge to master
 <!-- -------- -->
 working directory : file don't  modified
 staging are : file has modified
