@@ -20,6 +20,9 @@ git branch -D <A> : delete branch A from workspace
 
 git reset --soft : undo change to staging area
 git reset --mixed : undo change to work directory
+git reset --hard : undo change from file
+
+git revert : add new commit override old commit & remove code
 <!-- -------- -->
 working directory : file don't  modified
 staging are : file has modified
