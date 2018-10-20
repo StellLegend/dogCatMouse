@@ -18,8 +18,8 @@ git branch : show all branch
 git merge <B> : add change from A to B
 git branch -D <A> : delete branch A from workspace
 
-git reset --soft : redo change to staging area
-git reset --mixed : redo change to work directory
+git reset --soft : undo change to staging area
+git reset --mixed : undo change to work directory
 <!-- -------- -->
 working directory : file don't  modified
 staging are : file has modified
