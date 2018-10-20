@@ -12,6 +12,10 @@ git diff : show difference of file, before and after change this file
 git checkout : remove file in working directory
 git reset : remove change in staging are
 
+git branch -b 'A' : add branch A to git
+git switch A : select branch A to work
+git branch -D 'A' : delete branch A from workspace
+
 <!-- -------- -->
 working directory : file don't  modified
 staging are : file has modified
