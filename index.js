@@ -5,6 +5,8 @@ var Mouse = require('./Mouse');
 var newDog = new Dog('Tom');
 var newCat = new Cat();
 var newMouse = new Mouse();
+
 newDog.sayHi();
 newDog.eat(newCat);
 console.log(newDog);
+console.log(newMouse);
