@@ -8,5 +8,6 @@ var newMouse = new Mouse();
 
 newDog.sayHi();
 newDog.eat(newCat);
+newCat.eat(newMouse);
 console.log(newDog);
 console.log(newMouse);
