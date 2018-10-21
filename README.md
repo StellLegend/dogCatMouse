@@ -45,12 +45,10 @@ Pull request : work with team use Github
     1. git checkout -b <feature/_branch>
     2. git push origin <branch>
     3. create pull request on Github
-<<<<<<< HEAD
    
-=======
+
     4. review code
-    5. merge to master
->>>>>>> 1f695b3f76c8f69e0bc04316cbaa457d9738926d
+
 
 Resolve conflicts
 When will conflicts happen?
