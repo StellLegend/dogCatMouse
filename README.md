@@ -24,6 +24,17 @@ git reset --hard : undo change from file
 
 git revert : add new commit override old commit & remove code
 
+
+Pull request : work with team
+    git checkout -b <_branch> : add new branch
+    git push origin <_branch> : push code of branch to github
+    create a pull request on Github
+    review code:
+        review code online
+        fetch branch into local to set offline (optional)
+        approve the pull request
+    merge to master
+
 git clone
 git pull
 
@@ -33,6 +44,19 @@ Pull request : work with team use Github
     3. create pull request on Github
     4. review code
     5. merge to master
+
+Resolve conflicts
+When will conflicts happen?
+    1 Changing the same file + same line
+    2 A deleted file X, but B modified file X
+Method 1
+    1 Using 'git rebase'
+    2 Resolve conflicts 
+    3 Push again with -f
+Method 2
+    1 Merge updated master to feature branch
+    2 Resolve conflict
+    3 Commit and push
 <!-- -------- -->
 working directory : file don't  modified
 staging are : file has modified
