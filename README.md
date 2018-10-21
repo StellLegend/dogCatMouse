@@ -33,10 +33,6 @@ Pull request : work with team
         review code online
         fetch branch into local to set offline (optional)
         approve the pull request
-<<<<<<< HEAD
-=======
-    merge to master
->>>>>>> 1f695b3f76c8f69e0bc04316cbaa457d9738926d
 
 git clone
 git pull
