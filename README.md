@@ -24,7 +24,7 @@ git reset --hard : undo change from file
 
 git revert : add new commit override old commit & remove code
 
-<<<<<<< HEAD
+
 Pull request : work with team
     git checkout -b <_branch> : add new branch
     git push origin <_branch> : push code of branch to github
@@ -34,7 +34,7 @@ Pull request : work with team
         fetch branch into local to set offline (optional)
         approve the pull request
     merge to master
-=======
+
 git clone
 git pull
 
@@ -44,7 +44,6 @@ Pull request : work with team use Github
     3. create pull request on Github
     4. review code
     5. merge to master
->>>>>>> feature/horse-class
 
 Resolve conflicts
 When will conflicts happen?
