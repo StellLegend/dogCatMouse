@@ -45,6 +45,19 @@ Pull request : work with team use Github
     4. review code
     5. merge to master
 >>>>>>> feature/horse-class
+
+Resolve conflicts
+When will conflicts happen?
+    1 Changing the same file + same line
+    2 A deleted file X, but B modified file X
+Method 1
+    1 Using 'git rebase'
+    2 Resolve conflicts 
+    3 Push again with -f
+Method 2
+    1 Merge updated master to feature branch
+    2 Resolve conflict
+    3 Commit and push
 <!-- -------- -->
 working directory : file don't  modified
 staging are : file has modified
