@@ -6,3 +6,4 @@ Cat.prototype.eat = function(mouse){
 }
 module.exports = Cat;
 some thing to lose
+we join
